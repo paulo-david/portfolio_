@@ -20,7 +20,6 @@ const Home = styled.div`
   }
 
   #links {
-
     width: 80%;
 
     display: flex;
@@ -41,17 +40,24 @@ const Home = styled.div`
 
       transition: 0.5s;
 
-      &:hover{
+      &:hover {
         color: white;
         background-color: black;
       }
     }
 
-    @media(max-width:600px){
-
+    @media (max-width: 600px) {
       margin: 0 auto;
       flex-direction: column;
     }
+  }
+
+  #technologies {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-top: 50px;
   }
 `;
 

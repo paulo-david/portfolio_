@@ -1,4 +1,6 @@
+import { stackData } from "../../utils/stackData";
 import { userData } from "../../utils/userData";
+import Tech from "../tech";
 import HomeWrapper from "./styles";
 
 function Home() {
@@ -28,6 +30,12 @@ function Home() {
           See github profile
         </a>
       </div>
+
+      <section id="technologies">
+        {stackData.map((stack, idx) => (
+          <Tech key={idx} title={stack.title} icon={stack.img}></Tech>
+        ))}
+      </section>
     </HomeWrapper>
   );
 }
