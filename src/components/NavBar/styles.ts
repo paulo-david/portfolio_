@@ -6,10 +6,14 @@ const NavBar = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
 
+  position: fixed;
+  z-index: 99999;
+  width: calc(100% - 100px);
+
+  padding: 0 50px;
   background-color: #404040;
-  border-bottom: 3px solid #1d1d1d;
+  border-bottom: 3px solid brown;
 
   nav {
     width: 220px;
