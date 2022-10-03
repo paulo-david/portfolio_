@@ -17,7 +17,7 @@ const Home = styled.div`
 
   #description {
     span {
-      color: blueviolet;
+      color: brown;
     }
   }
 
