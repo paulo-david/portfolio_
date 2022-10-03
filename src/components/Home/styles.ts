@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 const Home = styled.div`
+
+  padding-top: 110px;
   #intro {
     display: flex;
     img {
@@ -16,6 +18,8 @@ const Home = styled.div`
   }
 
   #description {
+
+    margin-bottom: 40px;
     span {
       color: brown;
     }

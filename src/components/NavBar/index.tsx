@@ -9,6 +9,7 @@ const Navbar = () => {
         <a href="#Home">Home</a>
         <a href="#AboutMe">AboutMe</a>
         <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
       </nav>
     </NavBarWrapper>
   );

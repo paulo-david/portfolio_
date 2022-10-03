@@ -16,7 +16,7 @@ const NavBar = styled.div`
   border-bottom: 3px solid brown;
 
   nav {
-    width: 220px;
+    width: 330px;
     display: flex;
     justify-content: space-between;
 
@@ -26,10 +26,15 @@ const NavBar = styled.div`
       font-weight: 800;
       letter-spacing: 0.5px;
 
+      height: 30px;
+
       transition: 300ms;
 
-      &hover {
-        border-bottom: 2px solid black;
+      &:hover {
+        height: 25px;
+
+        border-bottom: 1px solid white;
+        border-radius: 5px;
       }
     }
   }
