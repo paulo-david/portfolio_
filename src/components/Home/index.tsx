@@ -1,6 +1,6 @@
 import { stackData } from "../../utils/stackData";
 import { userData } from "../../utils/userData";
-import Tech from "../tech";
+import Tech from "../Tech";
 import HomeWrapper from "./styles";
 
 function Home() {
