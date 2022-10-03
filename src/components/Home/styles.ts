@@ -8,6 +8,8 @@ const Home = styled.div`
       width: 100px;
 
       border-radius: 50%;
+
+      margin-right: 30px;
     }
     h1 {
     }
@@ -46,7 +48,7 @@ const Home = styled.div`
       }
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 700px) {
       margin: 0 auto;
       flex-direction: column;
     }
