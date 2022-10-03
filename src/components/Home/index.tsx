@@ -5,7 +5,7 @@ import HomeWrapper from "./styles";
 
 function Home() {
   return (
-    <HomeWrapper>
+    <HomeWrapper id="Home">
       <div id="intro">
         <img
           src={`https://github.com/${userData.githubUser}.png`}

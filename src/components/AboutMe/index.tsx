@@ -7,7 +7,7 @@ import { RiMusic2Line } from "react-icons/ri";
 
 const AboutMe = () => {
   return (
-    <AboutMeWrapper>
+    <AboutMeWrapper id="AboutMe">
       <h3 className="listTitle">Current learning:</h3>
       <ul>
         <li className="listItem">

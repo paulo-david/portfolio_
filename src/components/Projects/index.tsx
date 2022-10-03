@@ -5,7 +5,7 @@ import { BsGithub } from "react-icons/bs";
 
 const Projects = () => {
   return (
-    <ProjectsWrapper>
+    <ProjectsWrapper id="Projects">
       {projectsData.map((project, idx) => (
         <div className="project" key={idx}>
           <h3 className="projectTitle">{project.title}</h3>
