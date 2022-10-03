@@ -1,4 +1,5 @@
 import ContactWrapper from "./styles";
+import { FaWhatsapp, FaEnvelopeOpen, FaLinkedin } from "react-icons/fa";
 import { userData } from "../../utils/userData";
 
 const Contact = () => {
@@ -8,7 +9,7 @@ const Contact = () => {
 
       <ul id="contact_list">
         <li>
-          whatapp
+          <FaWhatsapp></FaWhatsapp>
           <div className="info">
             <h4>My Whatsapp</h4>
             <p>I'm available for text or voice message</p>
@@ -17,6 +18,27 @@ const Contact = () => {
             >
               Talk now
             </a>
+          </div>
+        </li>
+
+        <li>
+          <FaEnvelopeOpen></FaEnvelopeOpen>
+          <div className="info">
+            <h4>My e-mail</h4>
+            <p>Send me an email reporting feedbacks, suggestions and ideas</p>
+            <a href={`mailto:${userData.emailUser}`}>Send me an e-mail</a>
+          </div>
+        </li>
+
+        <li>
+          <FaLinkedin></FaLinkedin>
+          <div className="info">
+            <h4>My Linkedin</h4>
+            <p>
+              We can create more constant interactions as well as a sharing
+              network
+            </p>
+            <a href={`https://www.linkedin.com/in/${userData.linkedinUser}`}>Go to Linkedin now</a>
           </div>
         </li>
       </ul>
