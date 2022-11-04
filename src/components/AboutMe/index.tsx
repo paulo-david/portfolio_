@@ -1,6 +1,6 @@
 import AboutMeWrapper from "./styles";
 
-import { SiDocker, SiXbox, SiJava, SiDjango } from "react-icons/si";
+import { SiXbox, SiJava } from "react-icons/si";
 import { DiProlog } from "react-icons/di";
 import { GiJellyBeans } from "react-icons/gi";
 import { RiMusic2Line } from "react-icons/ri";
